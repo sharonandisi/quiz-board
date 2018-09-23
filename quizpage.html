@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <title>Tarakilishi club</title>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="index.html">Tarakilishi club</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+                        aria-expanded="false">
+                        Explore
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#card">Action</a>
+                        <a class="dropdown-item" href="#card">Another action</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#card">Something else here</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="#">Contact</a>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+
+</head>
+<body>
+    <div class="container">
+        <form class="quiz"action="about:blank" target="result.html">
+    <ol>
+        <li>
+             Which HTML attribute is used to reference an external JavaScript file?
+            <div class="radio">
+                <label>
+                    <input type="radio" name="q1" value=20 > src
+                </label>
+            </div>
+            <div class="radio">
+                <label>
+                    <input type="radio" name="q1" value=0 > rel
+                </label>
+            </div>
+            <div class="radio">
+                <label>
+                    <input type="radio" name="q1" value=0 > href
+                </label>
+            </div>
+        </li>
+        <li>
+             A variable in JavaScript must start with which special character
+            <div class="radio">
+                <label>
+                    <input type="radio" name="q2" value=0 > #
+                </label>
+            </div>
+            <div class="radio">
+                <label>
+                    <input type="radio" name="q2" value=0 > $
+                </label>
+            </div>
+            <div class="radio">
+                <label>
+                    <input type="radio" name="q2" value=20> no special character
+                </label>
+            </div>
+        </li>
+        <li>
+            Which of the below is not a valid JavaScript data type?
+            <div class="radio">
+                <label>
+                    <input type="radio" name="q3" value=0 > Boolean
+                </label>
+            </div>
+            <div class="radio">
+                <label>
+                    <input type="radio" name="q3" value=0> String
+                </label>
+            </div>
+            <div class="radio">
+                <label>
+                    <input type="radio" name="q3" value=20> Number
+                </label>
+            </div>
+        </li> 
+        <li>
+            Which of the following words is not a reserved words in JavaScript?
+            <div class="radio">
+                <label>
+                    <input type="radio" name="q4" value=0 > break
+                </label>
+            </div>
+            <div class="radio">
+                <label>
+                    <input type="radio" name="q4" value=0> delete
+                </label>
+            </div>
+            <div class="radio">
+                <label>
+                    <input type="radio" name="q4" value=20> alpha
+                </label>
+            </div>
+        </li>
+        <li>
+            JavaScript is directly related to "Java" programming language?
+            <div class="radio">
+                <label>
+                    <input type="radio" name="q5" value=0 > True
+                </label>
+            </div>
+            <div class="radio">
+                <label>
+                    <input type="radio" name="q5" value=20> False
+                </label>
+            </div>
+        </li>
+    </ol>
+
+    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Submit</button>
+    <div class="card">
+        <h4>Your score is:</h4>
+        <div id="output"></div>
+    </div>
+       
+</form>
+    </div>
+</body>
+<script src="js/jquery.js"></script>
+<script src="js/script.js"></script>
+</html>
