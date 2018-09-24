@@ -1,7 +1,7 @@
 # quiz-board
 This is a project that allows the user to answer questions from a multiple choice questions in a quiz
 ## Description
-{This is a simple website ;containing quizzes for students to attempt and gauge their scores.  :https://github.com/sharonandisi/quiz-board.gh }
+{This is a simple website ;containing quizzes for students to attempt and gauge their scores.  : https://github.com/sharonandisi/quiz-board.git }
 ##  Setup/installation Requirements
 * Have a functioning up to date Web Browser
 * Have a text editor i.e Atom, Visual Code Basic, Sublime Text etc.
